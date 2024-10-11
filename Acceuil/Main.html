@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="Main.css">
+    <link rel="icon" type="image/png" href="imgs/university-logo.svg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <link rel="stylesheet" href="footer.css">
+    <title>Acceuil</title>
+
+</head>
+
+<body class="fade-out">
+
+    <div class="bar">
+        <div class="phase1">
+            <a href="#ScrollToTop">
+                <img id="logo" src="./imgs/LOGO-Fac-centrale.png" alt="University Logo">
+            </a>
+            <div class="departement_name">
+                <p id="glowingText">Departement</p>
+                <p id="glowingText2">Informatique</p>
+            </div>
+        </div>
+        <div class="phase2">
+            <div>
+                <div class="ul">
+                    <p class="active_nav">ACCUEIL</p>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <a href="../Departement/Departement1.html">
+                    <div class="ul">
+                        DEPARTEMENT
+                        <img class="arrow" src="./imgs/button-ul-menu.png" alt="">
+                    </div>
+                </a>
+                <div class="dropdown-content">
+                    <a href="../Departement/Departement1.html">Departement Informatique</a>
+                    <a href="../Departement/Departement1.html#ScrollToListe_Enseignant">Liste Enseignants</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <a href="#">
+                    <div class="ul">
+                        FORMATION
+                        <img class="arrow" src="./imgs/button-ul-menu.png" alt="">
+                    </div>
+                </a>
+
+                <div class="dropdown-content">
+                    <a href="../Licence/Formation-Licence.html">Licence Informatique</a>
+                    <a href="../Master/Master.html">Master Informatique</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <a href="#">
+                    <div class="ul">
+                        CONTACT 
+                        <img class="arrow" src="./imgs/button-ul-menu.png" alt="">
+                    </div>
+                </a>
+
+                <div class="dropdown-content">
+                    <a href="../Contact/page_Contact.html">Réclamation</a>
+                </div>
+            </div>
+
+
+
+
+        </div>
+        <div class="dropdown1" id="p1">
+            <div class="dropbtn">
+                <div>Inscription </div>
+                <img id="in" src="imgs/icon-inscription.png" alt="">
+            </div>
+            <div id="myDropdown" class="dropdown1-content">
+                <a href="#">La plate-forme numérique progress</a>
+                <a href="#"> bibliothèque universitaire</a>
+            </div>
+        </div>
+    </div>
+    <a id="ScrollToTop"></a>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="home-overview swiper-slide">
+                <div class="container">
+                    <div class="welcome">Bienvenue au site du departement informatique
+                    </div>
+                    <a href="../Departement/Departement1.html">
+                        <div class="savoir">En savoir +</div>
+                    </a>
+                </div>
+            </div>
+            <div class="home-overview1 swiper-slide">
+                <div class="container">
+                    <div class="ui welcome">Veuillez <br> découvrir nos <br> Formations en <br> informatique
+                    </div>
+                    <a id="ggg" href="#for1">
+                        <div class="savoir">En savoir +</div>
+                    </a>
+                </div>
+            </div>
+            <div class="home-overview2 swiper-slide">
+                <div class="hh">
+                    <!-- <div class="title-contact">Veuillez Nous Contacter.</div> -->
+                    <div class="ss welcome">Contacter-nous des maintenant pour toute question ou demande
+                        
+                    </div>
+                    <a href="../Contact/page_Contact.html">
+                        <div class="savoir">Contactez-Nous</div>
+                    </a>
+                </div>
+            </div>
+            <div class="home-overview3 swiper-slide">
+
+                <div class="container" id="CLUBP">
+                    <div class="title">
+                      
+                    </div>
+                    <div id="clubs">
+                        <img class=img-club src="imgs/opensource.svg" alt="opensourceLOGO">
+                        <img class=img-club src="imgs/quanta.svg" alt="quantaLOGO">
+
+                        <img class=img-club src="imgs/nature.svg" alt="natureLOGO ">
+                    </div>
+                    <div class="welcome_club">veuillez decouvrir nos clubs, Trouver celui qui vous correspond.
+                     
+                    </div>
+                    <a href="../Departement/Departement1.html#ScrollToClubs">
+                        <div class="savoir">En savoir +</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <br> <br>
+    <div class="MainContainer">
+
+        <!-- PlaceHolder for the button that will return us to the top of the page-->
+
+
+        <div class="DepTalk">
+
+            <div class="DepImage">
+                <img src="./imgs/photo-box-accueil.png" alt="ImageOfDepInfo">
+
+            </div>
+
+
+            <div class="DepText">
+
+                <h2 id="DepTitle"> Université D'Alger 1 Ben yousef Ben Khadda faculté des sciences, Departement
+                    Informatique.</h2>
+
+                <p id="DepParagraph">Le département informatique est un domaine en constante évolution qui englobe la
+                    programmation, le développement de logiciels, la gestion des réseaux et la sécurité informatique.
+                    Les diplômés de ce domaine ont accès à une large gamme de débouchés, allant des entreprises de
+                    technologie aux agences gouvernementales en passant par les institutions financières. </p>
+
+            </div>
+
+        </div>
+
+
+        <div id="for1" class="Formations">
+
+            <div class="FormationText">
+
+                <p>embrassez le monde de l'informatique à l'université pour une formation pratique et complète.</p>
+            </div>
+
+            <div class="FormationTalk">
+
+                <p>Le département d'informatique de la Faculté Alger 1 Youcef Benkhedda offre des formations accessibles
+                    à tous, ouvrant les portes à toutes les opportunités, avec un soutien et un niveau d'exigence
+                    optimaux pour répondre aux besoins individuels.</p>
+            </div>
+
+            <div class="FormationTitle">
+                <h2>FORMATION</h2>
+            </div>
+
+
+
+        </div>
+
+
+        <div class="L1_M2">
+
+            <div class="FormationBox" id="L1">
+
+                <h3>Licence 1</h3>
+                <hr>
+                <div class="Para">
+                    <p>1ère année Licence parcours informatique generale avec une solide formation en math et
+                        informatique. </p>
+                </div>
+
+                <a class="hover-decouvrir" href="../Licence/Formation-Licence.html#ScrollToLicence1"><span
+                        class="hover-decouvrir">découvrir</span></a>
+
+            </div>
+            <div class="FormationBox" id="L2">
+
+                <h3>Licence 2</h3>
+                <hr>
+                <div class="Para">
+                    <p>2eme année de licence en informatique générale, avec une orientation spécifique vers
+                        l'informatique. </p>
+                </div>
+
+                <a class="hover-decouvrir" href="../Licence/Formation-Licence.html#ScrollToLicence2"><span
+                        class="hover-decouvrir">découvrir</span></a>
+
+            </div>
+
+            <div class="FormationBox" id="L3">
+
+                <h3>Licence 3</h3>
+                <hr>
+                <div class="Para ParaM">
+                    <p>3ème année Licence informatique option système d'information ou Ingénierie des Systèmes
+                        d’information et du Logiciel. </p>
+                </div>
+
+                <a class="hover-decouvrir" href="../Licence/Formation-Licence.html#ScrollToLicence3"><span
+                        class="hover-decouvrir">découvrir</span></a>
+
+            </div>
+            <div class="FormationBox" id="M1">
+
+                <h3>Master 1</h3>
+                <hr>
+                <div class="Para ParaM">
+                    <p>1ère année Master informatique option Réseaux et Systèmes Embarqués. ou
+                        Ingénierie des Systèmes d’information et du Logiciel ou Analyse et Sciences de Données. </p>
+                </div>
+
+                <a class="hover-decouvrir" href="../Master/Master.html#master-liste-page-h2"><span
+                        class="hover-decouvrir">découvrir</span></a>
+
+            </div>
+            <div class="FormationBox" id="M2">
+
+                <h3>Master 2</h3>
+                <hr>
+
+                <div class="Para ParaM">
+                    <p>2ème année Master informatique option Réseaux et Systèmes Embarqués. ou
+                        Ingénierie des Systèmes d’information et du Logiciel ou Analyse et Sciences de Données. </p>
+                </div>
+
+                <a class="hover-decouvrir" href="../Master/Master.html#master-liste-page-h2"><span
+                        class="hover-decouvrir">découvrir</span></a>
+            </div>
+
+
+
+
+        </div>
+        <div id="tsparticles" class="global">
+            <div class="box">
+                <div class="boxb1">
+                    <div class="left">
+                        <img src="./imgs/LOGO-Fac-centrale.png" width="90" height="90" alt="logo-fac-central">
+                        <div class="dep">
+                            <p>Departement</p>
+                            <p>Informatique</p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <p>Suivez nous sur :</p>
+                        <div class="link">
+                            <a target="_blank"
+                                href="https://m.facebook.com/people/D%C3%A9partement-Informatique-Facult%C3%A9-des-sciences-Universit%C3%A9-Alger-1/100076476516492/"><img
+                                    src="./imgs/Facebook.png" width="45" alt="facebook-image"></a>
+                            <a href="https://www.youtube.com/@univ-alger1site" target="_blank"><img
+                                    src="./imgs/YouTube.png" width="45" alt="youtube-image"></a>
+                            <a href="https://fr.linkedin.com" target="_blank"> <img class="linkedin"
+                                    src="./imgs/LinkedIn.png" alt="linkedin-image" width="45" height="42"> </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="boxb2">
+                    <div class="left2">
+                        <div class="contact">
+                            <div class="email">
+                                <img src="./imgs/icon-Mail-beige.png" alt="icon_Mail" width="26" height="26">
+                                <a class="linkm" href="mailto:contact@univ-alger.dz">contact@univ-alger.dz</a>
+
+                            </div>
+                            <div class="tel">
+                                <img src="./imgs/icon-Phone-beige.png" alt="icon_tel" width="25" height="25">
+                                <a class="linktel" href="tel:021637765">021 63 77 65</a>
+
+                            </div>
+                            <div class="adresse">
+                                <img src="./imgs/icon-adresse-beige.png" alt="icon_adresse" width="20" height="26">
+                                <p>2 Rue Didouche Mourad, Alger Centre 16000</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="maps">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6391.967694607785!2d3.0506446412845394!3d36.770954953747754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128fb258e74b7123%3A0xa31d6cb06299dd5b!2sUniversit%C3%A9%20d&#39;Alger%201!5e0!3m2!1sfr!2sdz!4v1712438745796!5m2!1sfr!2sdz"
+                            width="150" height="150" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <a href="#ScrollToTop"><img src="./imgs/button-accueil-bottom.png" alt="button-scroll-haut"
+                                width="42" height="40"></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="beige">
+                <p>Université Alger 1 : Faculté des Sciences © Copyright 2024</p>
+            </div>
+        </div>
+
+    </div>
+    <script src="swiper-bundle.min.js"></script>
+    <script src="js.js"></script>
+    <script src="../tsparticles.bundle.min.js"></script>
+    <script src="../particles.js"></script>
+</body>
+
+</html>
