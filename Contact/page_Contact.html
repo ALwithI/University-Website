@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="LOGO-Fac-centrale.png">
+    <link rel="stylesheet" href="page_Contact.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles1.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <div class="bar">
+        <div class="phase1">
+            <a href="#ScrollToTop">
+                <img id="logo" src="./imgs/LOGO-Fac-centrale.png" alt="University Logo">
+            </a>
+            <div class="departement_name">
+                <p id="glowingText">Departement</p>
+                <p id="glowingText2">Informatique</p>
+            </div>
+        </div>
+        <div class="phase2">
+            <div>
+                <a href="../Acceuil/Main.html">
+                    <div class="ul">
+                        <p>ACCUEIL</p>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="dropdown">
+                <a href="../Departement/Departement1.html">
+                    <div class="ul">
+                        DEPARTEMENT
+                        <img class="arrow" src="./imgs/button-ul-menu.png" alt="">
+                    </div>
+                </a>
+                <div class="dropdown-content">
+                    <a href="../Departement/Departement1.html">Departement Informatique</a>
+                    <a href="../Departement/Departement1.html#ScrollToListe_Enseignant">Liste Enseignants</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <a href="#">
+                    <div class="ul">
+                        FORMATION
+                        <img class="arrow" src="./imgs/button-ul-menu.png" alt="">
+                    </div>
+                </a>
+
+                <div class="dropdown-content">
+                    <a href="../Licence/Formation-Licence.html">Licence Informatique</a>
+                    <a href="../Master/Master.html">Master Informatique</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <a href="#">
+                    <div class="ul">
+                        <p class="active_nav">CONTACT </p>
+                        <img class="arrow" src="./imgs/button-ul-menu.png" alt="">
+                    </div>
+                </a>
+
+                <div class="dropdown-content">
+                    <a href="../Contact/page_Contact.html">Réclamation</a>
+                </div>
+            </div>
+
+
+
+
+        </div>
+        <div class="dropdown1" id="p1">
+            <div class="dropbtn">
+                <div>Inscription </div>
+                <img id="in" src="imgs/icon-inscription.png" alt="">
+            </div>
+            <div id="myDropdown" class="dropdown1-content">
+                <a href="#">La plate-forme numérique progress</a>
+                <a href="#"> bibliothèque universitaire</a>
+            </div>
+        </div>
+    </div>
+    <div class="backgro"></div>
+    <div class="fcontenu">
+
+        <div class="box">
+            <div class="left">
+                <p class="p1">Laissez-nous un message</p>
+                <form method="post" action="#">
+                    <div class="sdiv">
+                        <input type="text" maxlength="20" placeholder="Nom" class="inName" name="Nom" required>
+                        <input type="email" maxlength="30" placeholder="Email" class="inEmail" name="email" required>
+                        <textarea placeholder="Votre Message" class="texta" maxlength="2500" required></textarea>
+                    </div>
+                    <div class="choisir">
+
+
+                        <div>
+                            <label for="choix">Vous êtes un(e) :</label>
+                            <select name="choix" id="choix">
+                                <option value="etudiant" selected>Étudiant(e)</option>
+                                <option value="Enseignant">Enseignant(e)</option>
+                                <option value="autres">autres</option>
+                            </select>
+                        </div>
+                        <input type="submit" value="Envoyer" class="button">
+                    </div>
+                </form>
+
+            </div>
+            <div class="right">
+                <div class="contact">
+                    <div class="email">
+                        <img src="icon-Mail-beige.png" alt="icon_Mail" width="23" height="23">
+                        <a class="linkm" href="mailto:contact@univ-alger.dz">contact@univ-alger.dz</a>
+
+                    </div>
+                    <div class="tel">
+                        <img src="icon-Phone-beige.png" alt="icon_tel" width="23" height="23">
+                        <a class="linktel" href="tel:021637765">021 63 77 65</a>
+
+                    </div>
+                    <div class="adresse">
+                        <img src="icon-adresse-beige.png" alt="icon_adresse" width="18" height="23">
+                        <p class="linkadresse">2 Rue Didouche Mourad, Alger Centre 16000</p>
+                    </div>
+                </div>
+                <div class="maps">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6391.967694607785!2d3.0506446412845394!3d36.770954953747754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128fb258e74b7123%3A0xa31d6cb06299dd5b!2sUniversit%C3%A9%20d&#39;Alger%201!5e0!3m2!1sfr!2sdz!4v1712438745796!5m2!1sfr!2sdz"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="social">
+                    <div class="fb">
+                        <a target="_blank"
+                            href="https://www.facebook.com/people/D%C3%A9partement-Informatique-Facult%C3%A9-des-sciences-Universit%C3%A9-Alger-1/100076476516492/?locale=cx_PH&_rdr">
+                            <img src="Facebook.png" alt="facebook_departement" width="36" height="39"></a>
+                    </div>
+                    <div class="yt">
+                        <a target="_blank" href="https://www.youtube.com/@univ-alger1site"> <img src="YouTube.png"
+                                alt="youtube_de_departement" width="36" height="39"></a>
+                    </div>
+                    <div class="lk">
+                        <img src="LinkedIn.png" alt="linkedin_de_department">
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+        <div class="menu">
+
+        </div>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+
+</html>
